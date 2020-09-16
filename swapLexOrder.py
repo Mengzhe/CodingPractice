@@ -45,7 +45,7 @@ def swapLexOrder(str, pairs):
             for x in cur_visited:
                 chars.append(str[x])
             chars.sort()
-            print(chars)
+            # print(chars)
             for x in sorted(list(cur_visited)):
                 res[x] = chars[-1]
                 chars.pop()
