@@ -1,4 +1,5 @@
 def repeatedDNASequences(s):
+    ## roling hash
     if len(s) < 10:
         return []
     power = pow(26, 9)
