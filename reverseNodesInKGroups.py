@@ -31,5 +31,3 @@ def reverseNodesInKGroups(l, k):
         prev = tail
 
     return dummy.next
-
-    return l
