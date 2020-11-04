@@ -10,7 +10,7 @@ def optimalStockBasket(stocks, riskBudget):
             res = max(res, cur_return)
             return
 
-            ## not take this stock
+        ## not take this stock
         helper(offset + 1, cur_return, cur_risk)
 
         ret, risk = stocks[offset]
